@@ -18,7 +18,7 @@ node()
  
     stage('Checkout')
     {
-       git branch: 'Development', credentialsId: 'Github', url: 'https://github.com/dsktechnologies/maven-web-application.git'
+       git branch: 'SIT', credentialsId: 'Github', url: 'https://github.com/dsktechnologies/maven-web-application.git'
        
     }
     stage('Build')
